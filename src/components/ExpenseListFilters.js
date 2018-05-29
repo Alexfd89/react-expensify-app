@@ -41,6 +41,7 @@ class ExpenseListFilters extends React.Component {
                     // numberOfMonths={1}
                     showClearDates={true}
                     isOutsideRange={() => false}
+                    displayFormat="DD/MM/YY"
                 />
             </div>
         );
