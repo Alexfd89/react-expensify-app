@@ -8,6 +8,8 @@ import configureStore from './store/configureStore';
 import {addExpense, removeExpense, editExpense} from './actions/expenses';
 import {setTextFilter, sortByDate, sortByAmount, setStartDate, setEndDate} from './actions/filters';
 import getVisibleExpenses from './selectors/expenses';
+import './firebase/firebase';
+import 'react-dates/lib/css/_datepicker.css';
 
 const store = configureStore();
 

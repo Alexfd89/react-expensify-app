@@ -34,7 +34,7 @@ test('should generate set end date action object', () => {
     expect(action).toEqual({
         type: 'SET_END_DATE',
         endDate: moment(0)
-    })
+    });
 });
 
 test('should set sort by date', () => {
@@ -43,7 +43,7 @@ test('should set sort by date', () => {
         type: 'SORT_BY_DATE',
         sortBy: 'date'
     });
-})
+});
 
 test('should set sort by amount', () => {
 
@@ -51,4 +51,4 @@ test('should set sort by amount', () => {
         type: 'SORT_BY_AMOUNT',
         sortBy: 'amount'
     });
-})
+});
