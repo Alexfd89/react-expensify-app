@@ -8,7 +8,7 @@ export const LoginPage = ({ startLogin, startFacebookLogin }) => (
             <h1 className="box-layout__title">Expensify</h1>
             <p>It's time to get your expenses under control.</p>
             <img src="./images/sign-in-button.png" className="login_button" onClick={startLogin} />
-            <button onClick={startFacebookLogin}>Login with facebook</button> 
+            <img src="./images/facebook-login-button-png-14.png" className="login_button" onClick={startFacebookLogin} />
         </div>
     </div>
 );
