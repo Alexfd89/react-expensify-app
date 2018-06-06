@@ -13,7 +13,10 @@ export const startLogin = () => {
 
 export const startFacebookLogin = () => {
     return () => {
-        return firebase.auth().signInWithPopup(facebookAuthProvider);
+        return firebase.auth().signInWithPopup(facebookAuthProvider).then((result) => {
+            let token = result.credential.accessToken;
+            let user = result.user;
+        });
     }
 }
 
