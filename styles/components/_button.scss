@@ -1,0 +1,40 @@
+.login_button {
+    width: 22rem;
+    cursor: pointer;
+}
+
+.button--link {
+    background: none;
+    color: white;
+    border: none;
+    font-size: $font-size-large;
+    display: inline-block;
+    padding: $s-size;
+    font-weight: 300;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.button {
+    background: $blue;
+    color: white;
+    border: none;
+    font-size: $font-size-large;
+    display: inline-block;
+    padding: $s-size;
+    font-weight: 300;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.remove-button {
+    background: #888;
+    color: white;
+    border: none;
+    font-size: $font-size-large;
+    display: inline-block;
+    padding: $s-size;
+    font-weight: 300;
+    line-height: 1;
+    text-decoration: none;
+}
